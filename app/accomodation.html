@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
+        integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link href="css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="inner-header">
+            <div class="container">
+                <div class="inside-inner">
+                    <a href="support.html">Support</a>
+                    <a href="contact.html">Contact us</a>
+                </div>
+
+                <div class="inside-inner-mobile">
+                    <div class="left-side-header">
+                        <div class="currency-country">
+                            <div class="currency mr-2">
+                                <!-- <p>AZN</p> -->
+                                <div class="custom-selectbox">
+                                    <select>
+                                        <!-- <option value="0">AZN</option> -->
+                                        <option value="1">USD $</option>
+                                        <!-- <option value="2">Euro</option>
+                                        <option value="3">TL</option> 
+                                        <option value="4">Rubl</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="country">
+                                <div class="custom-selectbox">
+                                    <select>
+                                        <option value="0">English</option>
+                                        <!-- <option value="1">Turkey</option>
+                                        <option value="2">Germany</option>
+                                        <option value="3">France</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-nav float-right">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="login-reg-btns mt-2">
+                    <a href="login.html" class="mb-3 text-dark">Login</a>
+                    <a href="register.html" class="text-dark">Register</a>
+                </div>
+
+                <div class="login-reg-btns mt-2 if-logged-in">
+                    <span>Welcome, guy</span>
+                    <a href="#" class="text-dark">Logout</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="center-header">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/header/logo.svg" alt="">
+                        </a>
+
+                    </div>
+                    <div class="right-side-header">
+                        <div class="currency-country">
+                            <div class="currency">
+                                <span>Currency</span>
+                                <!-- <p>AZN</p> -->
+                                <div class="custom-selectbox">
+                                    <select>
+                                        <!-- <option value="0">AZN</option> -->
+                                        <option value="1">USD $</option>
+                                        <!-- <option value="2">Euro</option> -->
+                                        <!-- <option value="3">TL</option> -->
+                                        <!-- <option value="4">Rubl</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="country">
+                                <span>Language</span>
+                                <div class="custom-selectbox">
+                                    <select>
+                                        <option value="0">English</option>
+                                        <!-- <option value="1">Turkey</option>
+                                        <option value="2">Germany</option>
+                                        <option value="3">France</option> -->
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <a href="login.html"><button class="light-btn">Login</button></a>
+                            <a href="register.html"><button class="dark-btn">Register</button></a>
+                        </div>
+                        
+                        <div class="if-logged buttons">
+                            <button class="light-btn">Profile</button>
+                            <button class="dark-btn">Logout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="center-header-mobile">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/header/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="small-menu text-right">
+                        <nav>
+                            <div class="left-side-nav">
+                                <i id="menu-btn" class="fas fa-bars"></i>
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="guides_drivers.html">Guides & Drivers</a></li>
+                                        <li><a href="accomodation.html">Accomodation</a></li>
+                                        <li><a href="flightreservation.html">Flight Reservation</a></li>
+                                        <li><a href="attractivelocation.html">Attractive Places</a></li>
+                                        <li><a href="offers.html">Offers</a></li>
+                                        <li><a href="support.html">Support</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="guides_drivers.html">Guides & Drivers</a></li>
+                        <li><a href="accomodation.html">Accomodation</a></li>
+                        <li><a href="flightreservation.html">Flight Reservation</a></li>
+                        <li><a href="attractivelocation.html">Attractive Places</a></li>
+                        <li><a href="offers.html">Offers</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="breadcumbs">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Accomodation</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="guides_drivers">
+        <div class="container">
+            <div class="row">
+                <!--#region filter LeftSideBar-->
+                <div class="col-md-3">
+                    <div class="radio_buttons">
+                        <label class="radio_container mb-1">
+                            Hotels
+                            <input autocomplete="off" type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="radio_container mb-1">
+                            Apartments
+                            <input autocomplete="off" type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="filter">
+                        <div class="filter_header">
+                            <h4>Filter</h4>
+                            <p>reset</p>
+                        </div>
+                        <div class="filter_body">
+                            <div class="filter_item">
+                                <div class="item_header ">
+                                    <h6>By room</h6>
+                                    <div class="plus activate"><i class="fas fa-plus"></i></div>
+                                    <div class="plus"><i class="fas fa-minus"></i></div>
+                                </div>
+                                <div class="item_body by_language">
+                                    <div class="checkbox_body">
+                                        <div class="form-group mb-0 inputs">
+                                            <select class="select2MultipleDropDownRoom js-states form-control" multiple="multiple" style="width: 100%;">
+                                                <option value="">1 room</option>
+                                                <option value="">2 rooms</option>
+                                                <option value="">3 rooms</option>
+                                                <option value="">4 rooms</option>
+                                                <option value="">5 rooms</option>
+                                            </select>
+                                            <!-- <span asp-validation-for="Phone" class="text-danger"></span> -->
+                                            <span asp-validation-for="LanguageIds" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border"></div>
+                            <div class="filter_item">
+                                <div class="item_body by_language">
+                                    <div data-role="rangeslider"
+                                        class="align-items-center d-flex justify-content-between">
+                                        <div class="price-range-slider">
+                                            <div class="item_header">
+                                                <h6>By price</h6>
+                                            </div>
+                                            <p>
+                                                <input autocomplete="off" type="text" id="amount" readonly
+                                                    style="border:0; color:#1A7F70; background-color: transparent;">
+                                            </p>
+                                            <div id="slider-range"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--#endregion filter LeftSideBar-->
+                <!--#region Guides & Drivers paging-->
+                <div class="col-md-9">
+                    <div class="content">
+                        <!--#region content_header-->
+                        <div class="header">
+                            <h4><span>Accommodations</span></h4>
+                        </div>
+                        <!--#endregion content_header-->
+                        <div class="body" id="offers">
+                            <!--#region person_details-->
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="accomodation_single.html">
+                                        <div class=" our_offers_partners_bottom_item">
+                                            <img src="./img/our_offers/rectangle1.jpg" alt="">
+                                            <div class="item_position_bottom">
+                                                <p class="our_offers_partners_name">The House Cafe</p>
+                                                <p>Azerbaijan, Baku</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="accomodation_single.html">
+                                        <div class=" our_offers_partners_bottom_item">
+                                            <img src="./img/our_offers/rectangle2.jpg" alt="">
+                                            <div class="item_position_bottom">
+                                                <p class=" our_offers_partners_name">The House Cafe</p>
+                                                <p>Azerbaijan, Baku</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="accomodation_single.html">
+                                        <div class=" our_offers_partners_bottom_item">
+                                            <img src="./img/our_offers/rectangle3.jpg" alt="">
+                                            <div class="item_position_bottom">
+                                                <p class=" our_offers_partners_name">The House Cafe</p>
+                                                <p>Azerbaijan, Baku</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="accomodation_single.html">
+                                        <div class=" our_offers_partners_bottom_item">
+                                            <img src="./img/our_offers/rectangle1.jpg" alt="">
+                                            <div class="item_position_bottom">
+                                                <p class="our_offers_partners_name">The House Cafe</p>
+                                                <p>Azerbaijan, Baku</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="accomodation_single.html">
+                                        <div class=" our_offers_partners_bottom_item">
+                                            <img src="./img/our_offers/rectangle2.jpg" alt="">
+                                            <div class="item_position_bottom">
+                                                <p class=" our_offers_partners_name">The House Cafe</p>
+                                                <p>Azerbaijan, Baku</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="accomodation_single.html">
+                                        <div class=" our_offers_partners_bottom_item">
+                                            <img src="./img/our_offers/rectangle3.jpg" alt="">
+                                            <div class="item_position_bottom">
+                                                <p class=" our_offers_partners_name">The House Cafe</p>
+                                                <p>Azerbaijan, Baku</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="accomodation_single.html">
+                                        <div class=" our_offers_partners_bottom_item">
+                                            <img src="./img/our_offers/rectangle1.jpg" alt="">
+                                            <div class="item_position_bottom">
+                                                <p class="our_offers_partners_name">The House Cafe</p>
+                                                <p>Azerbaijan, Baku</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="accomodation_single.html">
+                                        <div class=" our_offers_partners_bottom_item">
+                                            <img src="./img/our_offers/rectangle2.jpg" alt="">
+                                            <div class="item_position_bottom">
+                                                <p class=" our_offers_partners_name">The House Cafe</p>
+                                                <p>Azerbaijan, Baku</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="accomodation_single.html">
+                                        <div class=" our_offers_partners_bottom_item">
+                                            <img src="./img/our_offers/rectangle3.jpg" alt="">
+                                            <div class="item_position_bottom">
+                                                <p class=" our_offers_partners_name">The House Cafe</p>
+                                                <p>Azerbaijan, Baku</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--#endregion person_details-->
+                        </div>
+                    </div>
+                    <!--#region pagination buttons-->
+                    <div class="pagination">
+                        <div>
+                            <ul>
+                                <li>
+                                    <img src="img/pagination/left-arrow.svg" alt="">
+                                </li>
+                                <li class="active">1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                                <li>6</li>
+                                <li>-</li>
+                                <li>8</li>
+                                <li>
+                                    <img src="img/pagination/right-arrow.svg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--#endregion pagination buttons-->
+                </div>
+                <!--#endregion Guides & Drivers paging-->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="social">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/footer/logo-dark.svg" alt=""></a>
+                            </div>
+                            <div class="description">
+                                <p>Mursheed helps you to have an unforgettable experience anywhere you travel to. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="site-map">
+                            <p class="header-text">Site map</p>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="">Guides & Drivers</a></li>
+                                <li><a href="offers.html">Offers</a></li>
+                                <li><a href="support.html">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="more">
+                            <p class="header-text">More</p>
+                            <ul>
+                                <li><a href="terms_conditions.html">Terms & conditions</a></li>
+                                <li><a href="privacypolicy.html">Privacy policy</a></li>
+                                <li><a href="">Cookies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="contact-subscribe">
+                            <div class="contact">
+                                <p class="header-text">Contact us</p>
+                                <ul>
+                                    <li><a href="">info@mursheed.com</a></li>
+                                    <li><a href="">+994 50 808 08 01</a></li>
+                                </ul>
+                            </div>
+                            <div class="subscribe">
+                                <p class="header-text">Subscribe</p>
+                                <div class="send pt-2">
+                                    <input autocomplete="off" placeholder="your email address" type="text">
+                                    <button><img src="img/footer/send.svg" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
+                        <div class="follow-us d-flex align-items-center">
+                            <p class="header-text">Follow us:</p>
+                            <div class="social-icons d-flex align-items-center">
+                                <li><a href=""><i style="color:#C7C7C7; font-size: 21px" class="fab fa-facebook-f"></i></a></li>
+                                <li><a href=""><i style="color:#C7C7C7; font-size: 21px" class="fab fa-instagram"></i></a></li>
+                                <li><a href=""><i style="color:#C7C7C7; font-size: 21px" class="fab fa-twitter"></i></a></li>
+                                <li><a href=""><i style="color:#C7C7C7; font-size: 21px" class="fab fa-linkedin-in"></i></li></li>
+                                <li><a href=""><i style="color:#C7C7C7; font-size: 21px" class="fab fa-whatsapp"></i></a></li>
+                                <li><a href=""><i style="color:#C7C7C7; font-size: 21px" class="fab fa-snapchat-ghost"></i></a></li>
+                                <li><a href=""><i style="color:#C7C7C7; font-size: 21px" class="fab fa-youtube"></i></a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/selectbox.js"></script>
+    <script src="js/jquery-slider.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/select2.init.js"></script>
+</body>
+
+</html>

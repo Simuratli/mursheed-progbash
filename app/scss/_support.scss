@@ -1,0 +1,80 @@
+.support-header{
+    background-color: #f7f7f7;
+    min-height: 400px;
+    color: #0B8071;
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+    .support-header-container{
+        display: flex;
+        align-items: center;
+    }
+    .support-faq .item_body p{
+        color: #1A7F70;
+        font-size: .8em;
+    }
+    .filter{
+        .filter_header{
+            padding: 15px 0;
+        }
+        .filter_body{
+            .border{
+                width: 100%;
+            }
+            .filter_item{
+                .item_header{
+                    padding-left: 0;
+                }
+                .item_body{
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}
+.support-badges{
+    background-color: #F7F7F7;
+    .support-badge-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .custom-badge{
+            cursor: pointer;
+            margin: 0px 0px;
+            padding: 20px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            color: white;
+            border-radius: 5px;
+            
+            i{
+                font-size: 2em;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: .8em;
+            }
+        }
+        .first-badge{
+            background-color: #306594;
+        }
+        .second-badge{
+            background-color: #593194;
+        }
+    }
+}
+
+@media screen and (max-width:990px){
+    .support-header-left{
+        text-align: center;
+    }
+    .custom-badge{
+        margin-top: 30px !important;
+        margin-bottom: 0px !important;
+    }
+    .third-badge{
+        margin-bottom: 30px !important;
+    }
+}
