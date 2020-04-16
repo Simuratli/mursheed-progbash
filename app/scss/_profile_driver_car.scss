@@ -126,11 +126,9 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        button{
-                            background-color: transparent;
-                            color: white;
+                   
 
-                        a{
+                        .btn-car{
                             background-color: transparent;
                             color: white;
                             border: 1px solid white;
@@ -138,7 +136,12 @@
                             height: 40px;
                             width: 40px;
                             cursor: pointer;
+                            margin-right: 5px;
                             outline: none;
+                            &:hover{
+                                color: red;
+                                border: 1px solid red;
+                            }
                             i{
                                 position: relative;
                                 left: 11px;
@@ -146,7 +149,6 @@
                             }
                             transition: .3s ease;
                         }
-                    }
                 }
                 img{
                     width: 100%;
