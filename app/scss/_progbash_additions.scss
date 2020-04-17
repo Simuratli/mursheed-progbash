@@ -214,6 +214,9 @@ ul.dashed>li:before {
     margin: 0;
     padding: 20px 0 0 0;
 }
+.sub-menu ul li.active a {
+    color: $main-color !important ;
+}
 .sub-menu ul li a{
     text-decoration: none;
     font-family: Averta;
@@ -223,9 +226,10 @@ ul.dashed>li:before {
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #000;
     display: block;
+    color: black;
     padding: 10px 0px;
+   
 }
 .sub-menu ul li a:hover{
     transition: .3s ease;
@@ -250,6 +254,7 @@ ul.dashed>li:before {
 .routeInfoTextarea{
     border: none;
 }
+
 .sub-menu {
     transition: height .3s ease;
     overflow: hidden;
