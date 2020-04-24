@@ -135,7 +135,7 @@
                     outline: none;
                 }
                 .password{
-                    width: 400px;
+                    width: 100%;
                     height: 46px;
                     position: relative;
                     .view{
@@ -263,3 +263,19 @@
         margin: 10px 0px;
     }
 }
+
+
+@media(max-width:500px){
+    .password{
+        width: 100% !important;
+        height: 46px;
+        position: relative;
+    }
+    .inputs{
+        width:300px !important;
+        input{
+            width: 300px  !important;
+        }
+    }
+} 
+
