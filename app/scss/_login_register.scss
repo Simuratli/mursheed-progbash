@@ -4,7 +4,7 @@
         width: 100%;
         // height: 100px;
         background-color: #F7F7F7;
-        padding: 60px;
+        padding: 50px;
         .header{
             text-align: center;
             margin-bottom: 20px;
@@ -120,7 +120,7 @@
                 input{
                     background-color: #f7f7f7;
                     padding: 13px 15px;
-                    width: 400px;
+                    width: 100%;
                     height: 46px;
                     border-radius: 4px;
                     border: solid 1px #dfdfdf;
@@ -135,7 +135,7 @@
                     outline: none;
                 }
                 .password{
-                    width: 400px;
+                    width: 100%;
                     height: 46px;
                     position: relative;
                     .view{
@@ -191,7 +191,7 @@
             } 
             .submit{
                 margin-top: 20px;
-                width: 400px;
+                width: 100%;
                 height: 46px;
                 border-radius: 4px;
                 background-color: #0b8071;
@@ -263,10 +263,19 @@
         margin: 10px 0px;
     }
 }
+
+
 @media(max-width:500px){
     .password{
         width: 100% !important;
         height: 46px;
         position: relative;
     }
+    .inputs{
+        width:300px !important;
+        input{
+            width: 300px  !important;
+        }
+    }
 } 
+
