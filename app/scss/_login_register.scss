@@ -263,3 +263,10 @@
         margin: 10px 0px;
     }
 }
+@media(max-width:500px){
+    .password{
+        width: 100% !important;
+        height: 46px;
+        position: relative;
+    }
+} 
