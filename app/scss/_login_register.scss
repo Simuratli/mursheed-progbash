@@ -278,4 +278,32 @@
         }
     }
 } 
+@media(max-width:500px){
+    .password{
+        width: 100% !important;
+        height: 46px;
+        position: relative;
+    }
+    .inputs{
+        width:300px !important;
+        input{
+            width: 300px  !important;
+        }
+    }
+} 
 
+
+@media(max-width:300px){
+    .password{
+        width: 100% !important;
+        height: 46px;
+        position: relative;
+    }
+    .inputs{
+        width: 200px !important;
+        margin: 0 auto;
+        input{
+            width: 200px  !important;
+        }
+    }
+} 
