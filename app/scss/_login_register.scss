@@ -135,7 +135,7 @@
                     outline: none;
                 }
                 .password{
-                    width: 100%;
+                    width: 400px;
                     height: 46px;
                     position: relative;
                     .view{
@@ -278,7 +278,7 @@
         }
     }
 } 
-@media(max-width:500px){
+@media(max-width:400px){
     .password{
         width: 100% !important;
         height: 46px;
@@ -293,7 +293,7 @@
 } 
 
 
-@media(max-width:300px){
+@media(max-width:350px){
     .password{
         width: 100% !important;
         height: 46px;
