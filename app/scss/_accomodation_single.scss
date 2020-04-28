@@ -36,4 +36,19 @@
         }
         margin-bottom: 30px;
     }
+
+}
+.accomodation-thumbnail-images{
+    width: 100%;
+    height: 150px !important;
+    object-fit: cover !important;
+}
+
+.accomadation{
+    height: 250px;
+    img{
+        object-fit: cover !important;
+        width: 100%;
+        height: 100%;
+    }
 }

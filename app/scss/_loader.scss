@@ -6,7 +6,7 @@
     background-color: white;
   }
   .pulse {
-    animation: pulse 2s infinite;
+    animation: pulse 1s infinite;
     width:200px;
     height:200px;
     border-radius:50%;
@@ -18,7 +18,7 @@
     
   }
   .hidden{
-      animation: fade 1s forwards; 
+      animation: fade  forwards; 
      display: none;
   }
   
